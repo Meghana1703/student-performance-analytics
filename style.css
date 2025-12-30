@@ -1,0 +1,29 @@
+/* style.css */
+.stApp {
+    background-color: #0B0E14;
+}
+
+/* Metric Cards */
+[data-testid="stMetric"] {
+    background-color: #161B22;
+    border: 1px solid #30363D;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+    border-color: #58A6FF;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F0F6FC !important;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #0D1117;
+}
